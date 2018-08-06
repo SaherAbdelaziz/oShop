@@ -31,6 +31,7 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
     CheckOutComponent,
     OrderSuccessComponent,
     MyOrdersComponent,
+    LoginComponent,
     AdminProductsComponent,
     AdminOrdersComponent
   ],
@@ -46,8 +47,8 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
      { path:'shopping-cart' , component:ShoppingCartComponent},
      { path:'check-out' , component:CheckOutComponent},
      { path:'order-success' , component:OrderSuccessComponent},
-     { path:'my/orders' , component:MyOrdersComponent}
-     //{ path:'login' , component:LoginComponent},
+     { path:'my/orders' , component:MyOrdersComponent},
+     { path:'login' , component:LoginComponent},
      { path:'admin/products' , component:AdminProductsComponent},
      { path:'admin/orders' , component:AdminOrdersComponent},
     ])
